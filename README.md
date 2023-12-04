@@ -1,9 +1,10 @@
-# mobilitaetswende-lu
-Contents of the web site www.mobilitaetswende Ludwigshafen
+# mobilitaetswende-lu.de
+Contents of the website [Mobilitätswende in Ludwigshafen](https://mobilitaetswende-lu.de)
 
-This project aims to present alternative mobility concepts in Ludwigshafen and surrounding areas. 
+Project **mobilitaetswende-lu.de** (short **MWLU_de**) aims to present and discuss a broad spectrum of topics dealing with alternative mobility concepts in Ludwigshafen and surrounding areas. 
 
-Most politicians have affirmed that mega projects heavily biased toward car mobility are essential to secure the city's future. This is especially true for the so-called 'Helmut-Kohl-Allee'. Because of the tremendous financial volume involved, the city will lack the resources to start the necessary ecological and social bifurcation that the constitutional court in Germany has entailed on politicians and government because the preservation of climate and environment for the future generation is a fundamental right.
+Local politicians from most represented political parties have for decades consistently supported mega construction projects heavily biased toward car mobility, which they deemed essential to secure the city's future. 
+This is especially true for the so-called **Helmut-Kohl-Allee** that will involve a tremendous amount of money in the next ten years - until 2033, 2033. Possibly 1,1 billion Euro depending on how prices are going to rise. The city is already aching under such a debt burden that it cannot freely decide about its annual budget but needs approval from the Bundesland that last year already imposed restrictions on social programs. Most certainly, the city will lack the resources to unfold the necessary ecological and social bifurcation as the constitutional court in Germany has entailed all governmental institutions to do (The preservation of climate and environment for future generations has been recently declared a fundamental right).
 
-This homepage will try to explore alternative designs and ideas, reinventing the concept of mobility toward more efficiency, sustainability, and quality of life. We intend to cooperate with all citizens, creators, designers, and experts, who are willing to expose their ideas and publish them. 
+This homepage will explore alternative designs and ideas, reinventing the concept of mobility toward efficiency, sustainability, and quality of life. The responsible website team will cooperate with  citizens, creators, designers, and experts willing to publish their ideas and proposals. 
 
