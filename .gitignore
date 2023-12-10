@@ -1,0 +1,37 @@
+# -----------------------------------------------
+# FILE NAME: 	.gitignore
+# INFO:			gitignore file of project HTML-Khelil.de
+# DEFINITION: 	files that will not be accounted for by git
+# -----------------------------------------------
+# LAST MODIFIED 2023-02-02
+
+# -2-
+# !/Logo/**
+
+# -3-1
+_temp/
+git_commit*.txt
+
+# -3-2
+# All PDF-Datein im PDF Verzeichnis
+HTML_Khelil_PDF/**/[Pp][Dd][Ff]
+
+# -3-3
+# All JPG-Dateien im PICS Verzeichnis
+HTML_KHELIL_PICS_ORIGINAL/**/*.[Jj][Pp][Gg]
+
+# -3-4
+HTML_Modules_Unused
+
+# -3-5
+Ref_CSS/zwischen_speichern.css
+
+# Zusätzliche Infos
+
+# GIT-REMOVE
+# Datei auf den ignore-Kategorien, die früher berücksichtigt wurden, wurden aus dem Repository entfernt
+# git rm HTML_Khelil_PDF/**/*.pdf -r --cached (--dry-run)
+# git rm HTML_KHELIL_PICS_ORIGINAL/**/*.JPG -r --cached (--dry-run)
+# git rm _temp/** -r --cached (--dry-run)
+
+

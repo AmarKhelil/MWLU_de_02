@@ -1,0 +1,3 @@
+User-Agent: *
+Disallow: /siteadmin
+Sitemap: http://mobilitaetswende-lu.de/sitemap.xml
