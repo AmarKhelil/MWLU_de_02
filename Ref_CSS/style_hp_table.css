@@ -1,0 +1,285 @@
+/*
+FILE				style_hp_akh_table.css
+
+DATE-CREATION	2023.11.08
+LAST MODIFIED 	2023-12-04 
+
+PURPOSE			CSS-file for the HTML pages www.khelil.de. Table formatting.
+				
+PRELIMINARY REMARKS:
+*/
+
+
+/*---------------------------------------------------------*/
+/* BEGIN TABLE FORMATTING */
+/*---------------------------------------------------------*/
+* {
+}
+
+table,
+.Table_Projekte, 
+.Table_BilderKatalog,
+.Table_TitleWithImage,  
+.Table_in_Chr
+{ 
+	margin				: 0.5em;
+
+	text-align			: left;
+   vertical-align    : middle;
+
+ 	line-height       : 1.40;
+	width					: 100%;
+   border-color		: white; 		   
+	border-width		: 0.2em; 
+
+   font-size			: 1.0em;  /* leicht kleiner */  
+
+   background-color	: rgba(249,249,249,0.5); /* gray_0 #F9 F9 F9 gainsboro opacity=0.5 */
+
+/*	
+	border-collapse	: collapse;
+	border				: 0.2em solid white; 
+
+	width					:100%;   
+   line-height     	:1.5;  
+
+	padding-left		:10px;
+	border-spacing		: 1.0em;
+*/
+
+}
+
+.Table_Projekte {
+	border	:0px solid #000000; /* without border */
+}
+
+.Table_BilderKatalog{
+   font-size			:0.85em; /* kleiner, als normal*/  
+}
+
+.Table_TitleWithImage {
+   background-color	:#FFFFFF; /* white */
+}
+
+
+.Table_in_Chr {/* Chronologie der Projekte: Table within a project table */
+	background-color	: rgba(46,139,86,.2);	/* seagreen #2E 8B 57 = 46 139 86 opacity 0,2 */
+
+/*
+	background-color	: rgba(4,91,98,0.1);	 Google-Green #4 5B 62 = 04 91 98 opacity 0.1 
+*/
+}
+
+.Table_in_Chr_g {/* Chronologie der Projekte: Table within a project table */
+	background-color	: #F9F9F9; 	/* gray_0: gainboro like in table */
+}
+
+.Table_Finanz {
+	border	:2px solid #FFFFFF;
+	padding-right:1.0em;
+}
+/*---------------------------------------------------------*/
+/* END TABLE FORMATTING */
+/*---------------------------------------------------------*/
+
+/* tr */
+
+.tr_veryImportant,
+.tr_veryImportant2,
+.tr_veryImportant2a,
+.tr_veryImportant3,
+.tr_fc_veryImportant3,
+.tr_veryImportant5,
+.tr_veryImportant_bg4{
+	font-weight			:bold;
+}
+
+.tr_Important, .tr_veryImportant{
+	color	:rgba(255,0,0,0.8) ; /* red = ff 00 00 = 255 0 0  Opacity = 0.8 */
+}
+
+.tr_Important2, .tr_veryImportant2{
+	background-color	:rgba(255,0,0,0.2) ; /* red = ff 00 00 = 255 0 0  Opacity = 0.2 */
+}
+
+.tr_Important2a, .tr_veryImportant2a{
+	background-color	:rgba(255,0,0,0.1) ; /* red = ff 00 00 = 255 0 0  Opacity = 0.1 */
+}
+
+.tr_Important3, .tr_veryImportant3{
+	background-color	: rgba(46,139,86,.3);	/* seagreen #2E 8B 57 = 46 139 86 opacity 0,4 */
+
+/*
+	background-color	: rgba(4,91,98,.2);	 Google-Green #4 5B 62 = 04 91 98 opacity 1 
+*/
+
+}
+
+.tr_fc_Important3, .tr_fc_veryImportant3{
+	color	: rgba(46,139,86,1.0);	/* seagreen #2E 8B 57 = 46 139 86 opacity 0,4 */
+
+/*
+	background-color	: rgba(4,91,98,.2);	 Google-Green #4 5B 62 = 04 91 98 opacity 1 
+*/
+
+}
+
+
+.tr_Important3a {
+	background-color	:rgba(46,139,86,.2);	/* seagreen #2E 8B 57 = 46 139 86 opacity 0,3 */
+		
+	/* 
+		background-color	: rgba(4,91,98,.1); Google-Green #4 5B 62 = 04 91 98 opacity 1 
+	*/
+}
+
+.tr_Important5, .tr_veryImportant5{
+	color					:#0000FF; 	
+	/* blue */
+	color	:rgba(46,139,86,1.0);	/* seagreen #2E 8B 57 = 46 139 86 opacity 0,3 */
+}
+
+.tr_gray_0{
+	background-color	:#F9F9F9; 	/* gray_0: gainboro like in table */
+}
+.tr_gray_1{
+	background-color	:#F1F1F1; 	/* gray 1 */
+}
+
+.tr_gray_2{
+	background-color	:#E9E9E9; 	/* gray 2 */
+}
+
+.tr_red_0{
+	background-color	:#FFEBEB; 	/* red -- sehr hell*/
+/*	
+	background-color	:#FFCCCC; 	 red 0 -- sehr hell 
+*/
+}
+
+.tr_red_1{
+	background-color	:#FFABAB; 	/* red 1 - hell */
+}
+
+.tr_fc_red{
+	color	: rgba(255,0,0,0.8) 	/* red opacity = 0.8 */
+}
+
+.tr_green_0{
+	background-color	:#E6FFF8; 	/* green 0 */
+}
+.tr_green_1{
+	background-color	:#E6FFF8; 	/* green 1 */
+}
+
+.tr_betont {
+	background-color	:#EEEEFF; 	/* very light blue */
+}
+
+.tr_LIT_AKH {
+	background-color	:rgba(46,139,86,.1);	/* seagreen #2E 8B 57 = 46 139 86 opacity 0,2 */
+
+/*	
+	text-align			:left; 
+	background-color	:rgba(46,139,86,.1);	/* seagreen #2E 8B 57 = 46 139 86 opacity 0,2 
+	background-color	: rgba(4,91,98,.2);	/* Google-Green #4 5B 62 = 04 91 98 opacity 1 */
+*/
+}
+
+.tr_Data_left, 
+.Bereich_Rueckmeldung {
+	text-align:			left;
+}
+
+/* ------------------------------------------*/
+/* td th */
+/* ------------------------------------------*/
+
+td, 
+th { /* formating of table cells by default*/
+	padding-left	: 2.0em;
+	padding-bottom	: 0.5em;
+	padding-top 	: 0.5em;
+
+}
+
+th { /* formating of table cells by default*/
+	background-color	:#DECDCD; 	/* gray */
+}
+
+
+.td_Menue_Item_Titel {
+	font-weight			:bold;
+	line-height		   :1.5;
+}
+
+.td_Menue_Item_Seite {
+	border				:0px solid #FFFFFF;
+	text-align			:left;
+}
+
+
+.td_ProChrNam { /* Chronologie der Projekte: Projekt-Chronologie-Name (Column/Spalte)*/
+  	width					:10%; 
+	border				:0px solid #000000;
+	padding				:0 05px 0  05px;  /* top right bottom left */
+}
+
+.td_ProChrDes{ /* Chronologie der Projekte: Projekt-Chronologie-Description (Column/Spalte)*/
+  	width					:100%; 
+	border				:0px solid #000000;
+	padding				:0 05px 0  05px;  /* top right bottom left */
+}
+
+.td_KunstObjektBild{ /* Darstellung der Bilder in Dateien OBJ_MALARBEIT_*/
+   background-color	:#93A6AF; /*gray dark */
+  	width					:100%; 
+	border				:0px solid #000000;
+	padding				:2px 2px 2px  2px;  /* top right bottom left */
+
+}
+
+.td_bBegriff,
+.td_nBegriff
+ {
+	border				:1px solid #FFFFFF;
+	background-color	:rgba(46,139,86,.2);	/* seagreen #2E 8B 57 = 46 139 86 opacity 0,3 */
+
+/*	
+	border				:1px solid #000000; 
+	background-color	:#90D0FF; 	/* light blue */
+
+*/
+
+}
+
+.td_bBegriff {
+	font-weight			:bold;
+}
+
+.td_Explanation {
+	border				:2px solid #FFFFFF;
+}
+.td_ExplanationIt {
+	border				:1px solid #000000;
+	font-style			:italic;
+}
+
+.td_Year {
+	background-color	:#EEEEFF; /*very light blue*/
+}
+.td_Titel_Artefakte,
+.td_Txt_Artefakte{
+	/*color				:#0000FF; 	/* dark blue*/
+	background-color	:rgba(46,139,86,.3);	/* seagreen #2E 8B 57 = 46 139 86 opacity 0,3 */
+}
+.td_Titel_Artefakte{
+	font-weight			:bold;
+}
+
+/*---------------------------------------------------------*/
+/* END th td FORMATTING */
+/*---------------------------------------------------------*/
+
+
+/* END OF FILE */

@@ -1,0 +1,142 @@
+/*
+FILE				style_hp_body.css
+DATE-CREATION	2023.11.01
+LAST MODIFIED 	2023-12-03 
+PURPOSE			css-file for the HTML pages www.khelil.de
+*/
+
+/* ------------------------------------------------------------------*/
+/* GENERAL SETTING */
+/* ------------------------------------------------------------------*/
+
+* { 
+
+	box-sizing	:border-box;
+/*
+	margin		:0;
+	padding		:0;
+	outline		:none;
+*/
+}
+
+ol,
+ul  {
+
+ 	line-height       : 1.50;
+}
+
+body {
+
+  	background-color	: white; 			/* white	*/
+
+  	background-repeat	: no-repeat;
+	background			: url() no-repeat;
+	background-size	: cover;
+	background-position: center;
+
+  	color					: black;			/* font-color is black		*/
+
+	border				: 0px none #000000;
+  	text-decoration	: none;
+
+  	text-align			: justify;
+	margin				: 5 0 0 5; 			/* top right bottom left */
+  	padding				: 0.0em;
+
+	font-family			: "Rubik", "Ubuntu", "Helvetica", "Arial", sans-serif;
+  	font-style			: normal;
+  	font-weight			: normal;
+ 	line-height       : 1.40;
+  	font-size			: 1.00em;      		/* normal size */
+	width					: 100%;
+
+}
+
+body:after {
+
+		content: url(Logo/AKH_Logo_x0_128x128.png);
+}
+/*---------------------------------------------------------*/
+/* LINKS FORMATTING */
+/*---------------------------------------------------------*/
+
+.InternerLink {
+	border-width		:0px;
+	color					: rgba(51,51,255,1.0); /* dark blue */ 
+
+/* 
+	color	: rgba(46,139,86,1.0); seagreen #2E 8B 57 = 46 139 86 opacity 1 
+   color	: #0050FF; 	 dark blue [1]	
+	color	: rgba(204,102,0,1.0);  leicht braun  
+*/
+} 
+
+.ExternerLink {
+	color					: rgba(0,0,204,1.0); /* dark blue + */ 
+	border-width		:0px;
+
+/*
+	color					:seagreen;  #2E 8B 57 = 46 139 86 	
+	color					: rgba(4,91,98,1);	 Google-Green #4 5B 62 = 04 91 98 opacity 1 
+	color					: rgba(46,139,86,1.0);	 seagreen #2E 8B 57 = 46 139 86 opacity 1 
+	color					: rgba(153,76,0,1.0);  dark braun  
+*/
+
+}
+
+.InternerLink:hover,
+.ExternerLink:hover {
+   color					:#FF0000; 	/* dark red */
+}
+
+/*---------------------------------------------------------*/
+/* LEISTEN FORMATTING */
+/*---------------------------------------------------------*/
+
+.img_center {
+
+/*	
+	vertical-align    :middle; 
+	width					: 20%;
+	text-align			: center;
+	margin-left			:auto; 
+	margin-right:		:auto; 
+	display				:block; 
+*/
+
+
+   background-color	: rgba(249,249,249,0.1); /* gray_0 #F9 F9 F9 gainsboro opacity=0.1 */
+}
+
+/*---------------------------------------------------------*/
+/* Tabs */
+/*---------------------------------------------------------*/
+tab1 { padding-left: 2em; }
+tab2 { padding-left: 4em; }
+tab3 { padding-left: 6em; }
+tab4 { padding-left: 8em; }
+tab5 { padding-left:10em; }
+
+/*---------------------------------------------------------*/
+/* EXAMPLES OF USAGE */
+/*---------------------------------------------------------*/
+
+/*	margin				:0px 0px 0px 5px;	/* top right bottom left*/
+/*	margin				:auto; */
+/*	width					:80%; */
+/* background-color	:#FCFCFC; */
+/*	border-width		:0px; */
+/*	border-color		:#000000; 	/* black*/
+/*	border-style		:none; */
+/*	border-style		:solid; */
+/*	border-width		:0px;*/
+/* line-height       :1.5; */
+/* font-family			:Ubuntu, Helvetica, Arial, sans-serif; */
+/*	color					:#3c3535; /* almost black font color */
+/*	text-align			:justify; */
+/*	text-decoration	:none; */
+/*	border-radius		:10px; */
+/*---------------------------------------------------------*/
+
+
+/* END OF FILE */

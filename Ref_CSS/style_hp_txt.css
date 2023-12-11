@@ -1,0 +1,154 @@
+/*
+FILE				style_hp_akh_txt.css
+
+DATE-CREATION	2023.11.08
+LAST MODIFIED 	2023-12-04 
+
+PURPOSE			CSS-file for the HTML pages www.khelil.de. Table formatting.
+				
+PRELIMINARY REMARKS:
+*/
+
+/*---------------------------------------------------------*/
+/* TEXT FORMATTING */
+/*---------------------------------------------------------*/
+
+* {
+
+}
+
+/*---------------------------------------------------------*/
+/*---------------------------------------------------------*/
+.blockquote {
+
+	color			: rgba(46,139,86,1.0);	/* seagreen #2E 8B 57 = 46 139 86 opacity 1 */
+
+	font-style	: italic;
+	font-family	: monospace;
+  	font-size	: 1.20em;      		/* normal size */
+
+	/*
+	color			:#0000FF; 	 blue 
+	color			: rgba(4,91,98,1);	 Google-Green #4 5B 62 = 04 91 98 opacity 1 
+	*/
+
+}
+
+i	{
+	font-style:	italic;
+}
+
+
+.TextTOC{
+
+	background-color	:rgba(46,139,86,.2);	/* seagreen #2E 8B 57 = 46 139 86 opacity 0,2 */
+ 	line-height  		: 1.5;
+
+	/*
+	padding-left 		: 0.0em;
+	padding-right		: 2.0em;
+
+  	background-color	: rgba(240,255,240,0.5) ;		#F0FFF0 =  240 255 240	HoneyDew  with opacity 0,5
+  	background-color	: rgba(127, 255, 212, 0.1); 	aquamarine 7FFFD4 
+	background-color	: rgba(4,91,98,.1);	 			Google-Green #4 5B 62 = 04 91 98 opacity 0,1 
+
+	*/
+}
+
+.TextTOC_seagreen_opac1{
+	background-color	: rgba(46,139,86,.1);	/* seagreen #2E 8B 57 = 46 139 86 opacity 0.1 */
+}
+
+.TextTOC_seagreen_opac2{
+	background-color	:rgba(46,139,86,.2);		/* seagreen #2E 8B 57 = 46 139 86 opacity 0.2 */
+}
+
+.TextTOC_seagreen_opac3{
+	background-color	:rgba(46,139,86,.3);		/* seagreen #2E 8B 57 = 46 139 86 opacity 0.2 */
+}
+
+.TextBlog {
+	width					: 95%;
+	padding				: 5px;
+	margin				: 0px;
+	text-align			: left;
+}
+
+.TextH0, .TextH0_betont1 {
+	font-size			: 2.0em; /* große Schrift: */
+	font-weight			: bold;
+
+}
+
+.TextH1, .TextH1_betont1 {
+	font-size			: 1.7em; /* große Schrift: */
+	font-weight			: bold;
+
+/*	
+		font-family			: Rubik, Ubuntu, Arial, Verdana, Helvetica, sans-serif; 
+*/
+}
+
+.TextH2, .TextH2_betont1 {
+	font-size			: 1.4em; /* große Schrift: */
+	font-weight			: bold;
+}
+
+.TextH3, .TextH3_betont1, .Text_Titel {
+	font-size			: 1.25em; /* große Schrift: */
+	font-weight			: bold;
+}
+
+.TextH4, .TextH4_betont1 {
+	font-size			: 1.10em; /* große Schrift: */
+	text-decoration	: underline;
+}
+
+.TextH5, .TextH5_betont1 {
+	font-size			: 1.00em; /* Schrift: */
+	text-decoration	: underline;
+}
+
+.TextH0_betont1, .TextH1_betont1, .TextH2_betont1, .TextH3_betont1, .TextH4_betont1, .TextH5_betont1 {
+
+	background-color	: rgba(46,139,86,1.0); /*seagreen #2E 8B 57 = 46 139 86 opacity 1 */
+
+/*
+	background-color	: rgba(4,91,98,0.9);	 Google-Green #4 5B 62 = 04 91 98 opacity 1 
+  	background-color	: seagreen; 	
+*/
+	color					: white;
+}
+
+.Warnung{
+	color					: #FF0000; 	/* red bright */
+}
+
+.Anmerkung{
+	text-decoration	: underline;
+}
+
+.Anmerkung1{
+	font-style      	: italic;
+}
+
+.TextH5 {
+	font-style      	: italic;
+}
+
+.Text_Photos {
+	font-size			: 0.85em; /* kleine Schrift: */
+	font-style      	: italic;
+}
+
+
+
+/* ---------------------------------------------------------------------- */
+/* Was originally created to formate tables, but is actually more general */
+/* ---------------------------------------------------------------------- */
+
+
+
+/* END OF FILE */
+
+
