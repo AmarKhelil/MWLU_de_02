@@ -1,0 +1,15 @@
+#---------------------------------------------------------------------------
+# Datei 				.htaccess
+# Last modified 	2021-01-21 (Besprechung mit Patric Sokoll)
+# Grund 				www.khelil.de soll das Protokoll https:// immer aktivieren! 
+#---------------------------------------------------------------------------
+
+RewriteEngine On
+RewriteCond %{SERVER_PORT} !^443$
+RewriteRule (.*) https://%{HTTP_HOST}/$1 [R=301,L]
+
+ErrorDocument 404 /404.html
+ErrorDocument 403 /index.html
+
+
+#_END_OF_FILE
