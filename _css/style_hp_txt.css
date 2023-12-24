@@ -75,13 +75,13 @@ i	{
 }
 
 .TextH0, .TextH0_betont1 {
-	font-size			: 2.0em; /* große Schrift: */
+	font-size			: 2.5em; /* große Schrift: */
 	font-weight			: bold;
 
 }
 
 .TextH1, .TextH1_betont1 {
-	font-size			: 1.7em; /* große Schrift: */
+	font-size			: 2.0em; /* große Schrift: */
 	font-weight			: bold;
 
 /*	
@@ -90,7 +90,7 @@ i	{
 }
 
 .TextH2, .TextH2_betont1 {
-	font-size			: 1.4em; /* große Schrift: */
+	font-size			: 1.5em; /* große Schrift: */
 	font-weight			: bold;
 }
 
