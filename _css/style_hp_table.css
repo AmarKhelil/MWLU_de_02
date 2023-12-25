@@ -116,17 +116,14 @@ table,
 }
 
 .tr_fc_Important3, .tr_fc_veryImportant3{
-	color	: rgba(46,139,86,1.0);	/* seagreen #2E 8B 57 = 46 139 86 opacity 0,4 */
-
+	color	: rgba(46,139,86,1.0);	/* seagreen #2E 8B 57 = 46 139 86 opacity 1,0 */
 /*
 	background-color	: rgba(4,91,98,.2);	 Google-Green #4 5B 62 = 04 91 98 opacity 1 
 */
-
 }
 
-
 .tr_Important3a {
-	background-color	:rgba(46,139,86,.2);	/* seagreen #2E 8B 57 = 46 139 86 opacity 0,3 */
+	background-color	:rgba(46,139,86,.1);	/* seagreen #2E 8B 57 = 46 139 86 opacity 0,2 */
 		
 	/* 
 		background-color	: rgba(4,91,98,.1); Google-Green #4 5B 62 = 04 91 98 opacity 1 
@@ -134,9 +131,7 @@ table,
 }
 
 .tr_Important5, .tr_veryImportant5{
-	color					:#0000FF; 	
-	/* blue */
-	color	:rgba(46,139,86,1.0);	/* seagreen #2E 8B 57 = 46 139 86 opacity 0,3 */
+	color	:rgba(46,139,86,1.0);	/* seagreen #2E 8B 57 = 46 139 86 opacity 1,0 */
 }
 
 .tr_gray_0{
