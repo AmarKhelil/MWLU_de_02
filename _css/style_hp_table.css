@@ -17,6 +17,7 @@ PRELIMINARY REMARKS:
 }
 
 table,
+.Table_NO_BC,
 .Table_Projekte, 
 .Table_BilderKatalog,
 .Table_TitleWithImage,  
@@ -37,6 +38,8 @@ table,
    background-color	: rgba(249,249,249,0.5); /* gray_0 #F9 F9 F9 gainsboro opacity=0.5 */
 
 /*	
+
+
 	border-collapse	: collapse;
 	border				: 0.2em solid white; 
 
@@ -48,6 +51,12 @@ table,
 */
 
 }
+
+.Table_NO_BC
+{
+		background-color: transparent;
+}
+
 
 .Table_Projekte {
 	border	:0px solid #000000; /* without border */
