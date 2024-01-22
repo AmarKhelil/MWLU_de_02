@@ -14,6 +14,8 @@ _pics/**/*.[Jj][Pp][Gg]
 git_commit*.txt
 Ref_CSS/zwischen_speichern.css
 
+_docs_undisclosed/
+
 # GIT-REMOVE
 # Datei auf den ignore-Kategorien, die früher berücksichtigt wurden, wurden aus dem Repository entfernt
 # git rm _pdf/**/*.pdf -r --cached (--dry-run)

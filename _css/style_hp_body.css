@@ -62,9 +62,10 @@ body:after {
 
 .InternerLink {
 	border-width		:0px;
-	color					: rgba(51,51,255,1.0); /* dark blue */ 
+	color					: rgba(0,0,153,1.0); /* dark dark blue */ 
 
 /* 
+	color	: rgba(51,51,255,1.0); dark blue  
 	color	: rgba(46,139,86,1.0); seagreen #2E 8B 57 = 46 139 86 opacity 1 
    color	: #0050FF; 	 dark blue [1]	
 	color	: rgba(204,102,0,1.0);  leicht braun  
