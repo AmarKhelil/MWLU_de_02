@@ -208,7 +208,7 @@ th { /* formating of table cells by default*/
 }
 
 th { /* formating of table cells by default*/
-	background-color	:#DECDCD; 	/* gray */
+	background-color	: rgba(46,139,86,.4);	/* seagreen #2E 8B 57 = 46 139 86 opacity 0,4 */
 }
 
 
